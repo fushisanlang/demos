@@ -10,9 +10,9 @@ from openpyxl.styles import Font, colors, Alignment
 
 
 # 指定文件
-file1 = './测试数据.xlsx'  # 对比文件1
-file2 = './测试数据2.xlsx'  # 对比文件1
-file3 = './对比结果2.xlsx'  # 结果文件
+file1 = "./测试数据.xlsx"  # 对比文件1
+file2 = "./测试数据2.xlsx"  # 对比文件1
+file3 = "./对比结果.xlsx"  # 结果文件
 
 # 打开文件
 work_book1 = openpyxl.load_workbook(file1)
