@@ -56,6 +56,7 @@ func loginServer(cookie string) {
 		panic(err)
 	}
 	defer resp.Body.Close()
+
 }
 
 //获取工资数据
@@ -85,7 +86,6 @@ func getMessage() string {
 func Gongzi(f string) {
 
 	urlPath := "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=bcfbfda3-5114-4694-8360-9289f6a0854d"
-	//urlPath = "https://daoserver.fushisanlang.cn"
 
 	var tt1 = Markdown{Content: f}
 
@@ -115,8 +115,6 @@ func getStr(AString string) string {
 }
 
 func sendToRobot(message string) {
-
-	 
 
 	a := strings.Split(message, "data:[")
 	b := strings.Split(a[1], "],sumInfo")
@@ -217,9 +215,12 @@ func main() {
 		dateString := strings.Split(strings.Split(c[i], "whir$t3080_f3841':'")[1], "','whir$t3080_f3842'")[0]
 		moneyString := strings.Split(strings.Split(c[i], "whir$t3080_f3865':'")[1], "','whir$t3080_f3866'")[0]
 		resultString := dateString + "工资是" + moneyString + "元；"
-		fmt.Println(resultString)
+		if dateString == string(time.Now().Add(-240*time.Hour).Format("2006年1月")) {
+			sendToRobot(message)
+			break
 
+		} else if dateString != "" {
+			fmt.Println(resultString)
+		}
 	}
-	time.Sleep(60 * time.Second)
-	sendToRobot(message)
 }
