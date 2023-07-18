@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes,text/html; charset=utf-8" /> 
+  <title>平账</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
+  <style>
+@keyframes bgcolor {
+    0%   { background-color: #c44040; }
+
+  100% { background-color: #c44040; }
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    animation-delay: 0s;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-name: bgcolor;
+    background-color: #FFFFFF;
+    color: white;
+    font-family: "Segoe UI", "Microsoft Yahei UI";
+    height: 100%;
+    margin: 0px; ;
+}
+@font-face {
+    font-family: "Windows 8 Boot";
+    src: url("Win8Boot.woff");
+}
+.content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+#animation {
+    font-family: "Windows 8 Boot";
+    font-size: 32pt;
+}
+#description {
+    margin-top: 18pt;
+    font-size: 18pt;
+}
+</style> 
+ </head> 
+ <body -webkit-font-smoothing:="" antialiased;="" animation-delay:="" 0s;="" animation-duration:="" 60s;="" animation-iteration-count:="" infinite;="" animation-name:="" bgcolor;="" background-color:="" #ffffff;="" color:="" white;="" font-family:="" "segoe="" ui",="" "microsoft="" yahei="" ui";="" height:="" 100%;="" margin:="" 0px;=""> 
+  <br /> 
+  <br /> 
+  <br /> 
+  <br /> 
+  <br /> 
+  <br /> 
+  <div id="main" align="center"> 
+   <form method="post" action="/accountstatus">
+    <div align="center"> 
+     <table id="rounded-corner" summary="2007 Major IT Companies' Profit"> 
+      <tbody>
+       <tr> 
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">银行卡：</p></td> 
+        <td><input class="text" type="text" name="bankcard" size="5" /></td> 
+      
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">支付宝+余额宝：</p></td> 
+        <td><input class="text" type="text" name="zhifubao" size="5" /></td> 
+        
+ 
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">微信：</p></td> 
+        <td><input class="text" type="text" name="weixin" size="5" /></td> 
+        
+       </tr>
+              <tr> 
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">建行信用卡：</p></td> 
+        <td><input class="text" type="text" name="ccbcredit" size="5" /></td> 
+        
+       
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">交行信用卡：</p></td> 
+        <td><input class="text" type="text" name="bcmcredit" size="5" /></td> 
+        
+      
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">招行信用卡：</p></td> 
+        <td><input class="text" type="text" name="cmbcredit" size="5" /></td> 
+        
+       </tr>
+              <tr> 
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">中信信用卡：</p></td> 
+        <td><input class="text" type="text" name="zhongxincredit" size="5" /></td> 
+        
+   
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">民生信用卡：</p></td> 
+        <td><input class="text" type="text" name="cmbccredit" size="5" /></td> 
+        
+   
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">花呗：</p></td> 
+        <td><input class="text" type="text" name="huabei" size="5" /></td> 
+        
+     </tr>
+              <tr> 
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">白条：</p></td> 
+        <td><input class="text" type="text" name="baitiao" size="5" /></td> 
+   
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">借呗：</p></td> 
+        <td><input class="text" type="text" name="jiebei" size="5" /></td> 
+     <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">平账：</p></td> 
+        <td><input class="text" type="text" name="account" size="5" /></td> 
+       </tr>
+
+
+      </tbody> 
+     </table> 
+    </div> 
+    <div align="center"> 
+     <input type="submit" ;="" align="center" /> 
+    </div> 
+
+   </form> 
+  </div>   
+ </body>
+</html>

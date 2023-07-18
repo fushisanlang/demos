@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes,text/html; charset=utf-8" />
+  <title>update_register</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <style>
+@keyframes bgcolor {
+    0%   { background-color: #07689f; }
+    100%   { background-color: #07689f; }
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    animation-delay: 0s;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-name: bgcolor;
+    background-color: #FFFFFF;
+    color: white;
+    font-family: "Segoe UI", "Microsoft Yahei UI";
+    height: 100%;
+    margin: 0px; ;
+}
+@font-face {
+    font-family: "Windows 8 Boot";
+    src: url("Win8Boot.woff");
+}
+.content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+#animation {
+    font-family: "Windows 8 Boot";
+    font-size: 32pt;
+}
+#description {
+    margin-top: 18pt;
+    font-size: 18pt;
+}
+</style>
+ </head>
+ <body>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <div id="main" align="center">
+   <form method="post" action="/update_register_over">
+    <div align="center">
+     <p style="color:#ffd6a4;font-size:25px;" align="center">更新登记</p>
+     <table id="rounded-corner" summary="2007 Major IT Companies' Profit">
+      <tbody>
+       <tr>
+        <td align="center"><p style="color:#ff7367;font-size:16px;" align="center">环境名称：</p></td>
+        <td><select name="env_id"> <option> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </option> {% for env_name in env %} <option value="{{env_name[0]}}">{{env_name[1]}}</option> {% endfor %} </select></td>
+       </tr>
+       <tr>
+        <td align="center"><p style="color:#ff7367;font-size:16px;" align="center">前端git 提交id： </p></td>
+        <td><input class="text" type="text" name="page_git_id" size="50" /></td>
+       </tr>
+       <tr>
+        <td align="center"><p style="color:#ff7367;font-size:16px;" align="center">前端git 分支： </p></td>
+        <td><input class="text" type="text" name="page_git_branch" size="50" /></td>
+       </tr>
+       <tr>
+        <td align="center"><p style="color:#ff7367;font-size:16px;" align="center">后端git 提交id： </p></td>
+        <td><input class="text" type="text" name="system_git_id" size="50" /></td>
+       </tr>
+       <tr>
+        <td align="center"><p style="color:#ff7367;font-size:16px;" align="center">后端git 分支： </p></td>
+        <td><input class="text" type="text" name="system_git_branch" size="50" /></td>
+       </tr>
+       <tr>
+        <td align="center"><p style="color:#ff7367;font-size:16px;" align="center">后端版本： </p></td>
+        <td><input class="text" type="text" name="version" size="50" /></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div align="center">
+     <input type="submit" ;="" align="center" />
+    </div>
+   </form>
+  </div>
+ </body>
+</html>

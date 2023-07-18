@@ -1,0 +1,13 @@
+/home/python/sprider/wyf/wyf.py:14: DeprecationWarning: use options instead of chrome_options
+  browser = webdriver.Chrome(chrome_options=chrome_options)
+Traceback (most recent call last):
+  File "/home/python/sprider/wyf/wyf.py", line 18, in <module>
+    browser.reload()
+AttributeError: 'WebDriver' object has no attribute 'reload'
+/home/python/sprider/wyf/wyf.py:14: DeprecationWarning: use options instead of chrome_options
+  browser = webdriver.Chrome(chrome_options=chrome_options)
+Traceback (most recent call last):
+
+Exception ignored in: <module 'threading' from '/usr/local/python3/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+KeyboardInterrupt: 

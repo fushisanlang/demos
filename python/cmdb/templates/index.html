@@ -1,0 +1,61 @@
+<html>
+ <head>
+
+<style type="text/css">
+body {text-align: center;}
+
+table {margin: auto;}
+tr.s1
+{
+  color:#000000;
+  background-color:#756c83;
+}
+tr.s2
+{
+  color:#000000;
+  background-color:#EAF2D3;
+}
+
+    tr.head
+    {
+  color:#000000;
+  background-color:#f38181;
+}
+td{text-align:center}
+</style>
+
+ </head>
+ <body>
+  <table >
+  <tbody>
+  <tr class="head">
+      <td>环境名称</td>
+      <td>环境地址</td>
+      <td>公网ip</td>
+      <td>呼入号码</td>
+      <td>前端分支</td>
+      <td>前端id</td>
+      <td>前端更新时间</td>
+      <td>后端id</td>
+      <td>后端分支</td>
+      <td>后端版本</td>
+      <td>配置文件</td>
+      <td>后端更新时间</td>
+
+  </tr>
+{% for env in str %}
+      <tr class={{ loop.cycle("s1","s2")}}>
+      {% for aaa in env %}
+     <td>{{ aaa }} </td> {% endfor %}
+    </tr>
+{% endfor %}
+   </tbody>
+  </table>
+
+ <p><a href="/add_env">添加环境</a> </p>
+ <p><a href="/update_register">上线登记</a> </p>
+ <p><a href="/page_update_register">前端上线记录</a> </p>
+  <p><a href="/system_update_register">后端上线记录</a> </p>
+
+ </body>
+</html>

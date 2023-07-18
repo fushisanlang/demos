@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes,text/html; charset=utf-8" /> 
+  <title>Bill</title> 
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
+  <style>
+@keyframes bgcolor {
+    0%   { background-color: #c44040; }
+  10%  { background-color: #c48040; }
+  20%  { background-color: #80c440; }
+  30%  { background-color: #40c440; }
+    40%  { background-color: #40c480; }
+  50%  { background-color: #4080c4; }
+  60%  { background-color: #4040c4; }
+  70%  { background-color: #8040c4; }
+    80%  { background-color: #c44080; }
+  90%  { background-color: #000000; }
+  100% { background-color: #c44040; }
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    animation-delay: 0s;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-name: bgcolor;
+    background-color: #FFFFFF;
+    color: white;
+    font-family: "Segoe UI", "Microsoft Yahei UI";
+    height: 100%;
+    margin: 0px; ;
+}
+@font-face {
+    font-family: "Windows 8 Boot";
+    src: url("Win8Boot.woff");
+}
+.content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+#animation {
+    font-family: "Windows 8 Boot";
+    font-size: 32pt;
+}
+#description {
+    margin-top: 18pt;
+    font-size: 18pt;
+}
+</style> 
+ </head> 
+ <body -webkit-font-smoothing:="" antialiased;="" animation-delay:="" 0s;="" animation-duration:="" 60s;="" animation-iteration-count:="" infinite;="" animation-name:="" bgcolor;="" background-color:="" #ffffff;="" color:="" white;="" font-family:="" "segoe="" ui",="" "microsoft="" yahei="" ui";="" height:="" 100%;="" margin:="" 0px;=""> 
+  <br /> 
+  <br /> 
+  <br /> 
+  <br /> 
+  <br /> 
+  <br /> 
+  <div id="main" align="center"> 
+   <form method="post" action="/insertresult">
+    <div align="center"> 
+     <table id="rounded-corner" summary="2007 Major IT Companies' Profit"> 
+      <tbody> 
+       <tr> 
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">付款方式：</p></td> 
+        <td><select name="noun1"> <option>
+
+        </option> <option value="bankcard">银行卡</option>
+            <option value="zhifubao">支付宝</option>
+            <option value="weixin">微信</option>
+            <option value="account">平账 </option>
+            <option value="ccbcredit">建行信用卡</option>
+            <option value="bcmcredit">交行信用卡</option>
+            <option value="cmbcredit">招行信用卡</option>
+            <option value="zhongxincredit">中信信用卡</option>
+            <option value="cmbccredit">民生信用卡</option>
+            <option value="huabei">花呗</option>
+            <option value="baitiao">白条</option>
+            <option value="jiebei">借呗</option></select></td>
+       </tr> 
+       <tr> 
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">付款明细：</p></td> 
+        <td><input class="text" type="text" name="noun4" size="5" /></td> 
+       </tr> 
+       <tr> 
+        <td align="center"><p style="color:#FF9933;font-size:16px;" align="center">付款金额：</p></td> 
+        <td><input class="text" type="text" name="noun5" size="5" /></td> 
+        <!-- placeholder="3 -5"  --> 
+       </tr> 
+      </tbody> 
+     </table> 
+    </div> 
+    <div align="center"> 
+     <input type="submit" ;="" align="center" /> 
+    </div> 
+    <p style="color:#FF9933;font-size:16px;" align="center"> <a style="color:#FF9933;font-
+    size:16px;" class="mv" href="http://bill.fushisanlang.cn/bill.html">生成账单</a> </p> 
+   </form> 
+  </div>   
+ </body>
+</html>
